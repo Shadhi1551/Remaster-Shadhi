@@ -249,9 +249,8 @@
         // Initialize Lucide icons
         lucide.createIcons();
 
-        // --- Global Variables and Constants ---
-        const API_KEY = ""; // Keep empty: Netlify provides the key via environment variables or context if configured.
-        const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent";
+        // --- Global Variables and Constants ---    
+        const API_URL = "/.netlify/functions/generate-lyrics";
         const MAX_RETRIES = 3;
 
         // --- DOM Elements ---
