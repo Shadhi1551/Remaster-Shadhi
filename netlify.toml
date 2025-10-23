@@ -1,0 +1,11 @@
+[build]
+The 'publish' directory tells Netlify where to look for the
+static files (HTML, CSS, JS) after the build is complete.
+Since this is a simple HTML file with no build step (like React or Vue),
+the publish directory is the root of the repository.
+publish = "/"
+This is an optional section for local development via the Netlify CLI.
+[dev]
+Tells the local server to serve files from the root directory.
+publish = "/"
+framework = "#static"
